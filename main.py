@@ -25,7 +25,7 @@ ERROR = "Generation error"
 
 ### Nvidia models
 MODEL = "mistralai/mixtral-8x22b-instruct-v0.1"
-API_KEY = os.getenv("OPENAI_API_KEY")
+API_KEY = os.getenv("$OPENAI_API_KEY")
 
 # Use nvidia models API
 client = OpenAI(
