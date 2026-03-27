@@ -19,6 +19,8 @@ from openai import OpenAI
 
 load_dotenv() # load value from our environment variable file
 
+print(f"DEBUG: Assigned port is: {os.getenv('PORT')}")
+
 ERROR = "Generation error"
 
 ### Nvidia models
@@ -39,16 +41,16 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 async def get_config():
     # This sends the key from your .env to the browser
     return {
-        "api_key": os.getenv("API_KEY"),
+        "api_key": os.getenv("NVIDIA_API_KEY"),
         "model_name": MODEL
         }
 
 
-def verify_api_key(x_api_key: str = Header(None)):
-    credits = API_KEY_CREDITS.get(x_api_key, 0)
-    if credits <= 0:
-        raise HTTPException(status_code=401, detail="Invalid API Key")
-    return x_api_key
+# def verify_api_key(x_api_key: str = Header(None)):
+#     credits = API_KEY_CREDITS.get(x_api_key, 0)
+#     if credits <= 0:
+#         raise HTTPException(status_code=401, detail="Invalid API Key")
+#     return x_api_key
 
 
 def extract_item(text, prompt_type, temp, tokens):
