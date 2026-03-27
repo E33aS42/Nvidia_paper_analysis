@@ -19,11 +19,6 @@ from openai import OpenAI
 
 load_dotenv() # load value from our environment variable file
 
-# print(f"OPENAI_API_KEY exists: {'OPENAI_API_KEY' in os.environ}")
-
-
-print(f"DEBUG: Assigned port is: {os.getenv('PORT')}")
-
 ERROR = "Generation error"
 
 ### Nvidia models
@@ -42,21 +37,15 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/config")
 async def get_config():
-    # This sends the key from your .env to the browser
     return {
-        "api_key": API_KEY,
         "model_name": MODEL
         }
 
 
-# def verify_api_key(x_api_key: str = Header(None)):
-#     credits = API_KEY_CREDITS.get(x_api_key, 0)
-#     if credits <= 0:
-#         raise HTTPException(status_code=401, detail="Invalid API Key")
-#     return x_api_key
-
-
 def extract_item(text, prompt_type, temp, tokens):
+    """
+    Main extract text function using LLM prompts
+    """
     PROMPT = prompt_type.replace("{{DATA}}", text)
 
     completion = client.chat.completions.create(
@@ -228,8 +217,6 @@ def analyze_chunks(doc):
             chunk_text = ""
             for page_num in range(i, min(i + group_pages, nb_pages)):
                 chunk_text += doc[page_num].get_text()
-            with open("text.txt", "a", encoding="utf-8") as file:
-                file.write(chunk_text)
             tabfig = parse_chunk(extract_item(chunk_text, TABFIG_PROMPT, 0.1, 4096))
             chunk = parse_chunk(extract_item(chunk_text, CHUNK_PROMPT, 0.1, 4096))
 

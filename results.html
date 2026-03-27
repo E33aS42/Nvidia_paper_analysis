@@ -82,7 +82,7 @@
 <body>
 
     <div class="container">
-        <h2>Document AI Analyzer</h2>
+        <h2>Scientific paper AI Analyzer</h2>
         <p>Upload a PDF to analyze it using <strong><span id="model-name-header">...</span></strong>.</p>
         
         <input type="file" id="fileInput" accept=".pdf">
@@ -168,14 +168,12 @@
             try {
                 const configResponse = await fetch("/config");
                 const configData = await configResponse.json();
-                const apiKey = configData.api_key;
 
                 const formData = new FormData();
                 formData.append("file", fileInput.files[0]);
 
                 const response = await fetch("/analyze", {
                     method: "POST",
-                    headers: { "x-api-key": apiKey },
                     body: formData
                 });
 
@@ -184,19 +182,8 @@
 
                 document.getElementById('model-name-loader').innerText = configData.model_name;
 
-                // Clean the text by splitting before **Summary** as discussed
-                // let rawText = data.analysis;
-                // let cleanText = rawText;
-                // if (rawText.includes("**Summary**")) {
-                //     cleanText = "**Summary**" + rawText.split("**Summary**")[1];
-                // }
+                // Update the 5 Dashboard Windows
 
-                // resultDiv.innerText = cleanText;
-
-
-                // resultDiv.style.display = "block";
-                // 2. Update the 5 Dashboard Windows
-                // We use the "Optional Chaining" (?.) to prevent errors if a key is missing
                 if (document.getElementById('window-title')) {
                     document.getElementById('window-title').innerText = data.title || "Not found";
                 }
