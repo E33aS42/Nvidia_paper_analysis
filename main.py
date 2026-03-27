@@ -19,6 +19,9 @@ from openai import OpenAI
 
 load_dotenv() # load value from our environment variable file
 
+print(f"OPENAI_API_KEY exists: {'OPENAI_API_KEY' in os.environ}")
+print(f"OPENAI_API_KEY value length: {len(os.getenv('OPENAI_API_KEY', ''))}")
+
 print(f"DEBUG: Assigned port is: {os.getenv('PORT')}")
 
 ERROR = "Generation error"
