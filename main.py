@@ -37,13 +37,13 @@ app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-@app.get("/config")
-async def get_config():
-    # This sends the key from your .env to the browser
-    return {
-        "api_key": os.getenv("NVIDIA_API_KEY"),
-        "model_name": MODEL
-        }
+# @app.get("/config")
+# async def get_config():
+#     # This sends the key from your .env to the browser
+#     return {
+#         "api_key": os.getenv("NVIDIA_API_KEY"),
+#         "model_name": MODEL
+#         }
 
 
 # def verify_api_key(x_api_key: str = Header(None)):
