@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocAnalyzer AI</title>
+<style>
+    body { 
+        font-family: sans-serif; 
+        margin: 0;
+        padding: 40px 20px; 
+        line-height: 1.6;
+        background-image: url('/static/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center everything horizontally */
+    }
+
+    /* Shared style for all white windows */
+    .container, .info-window { 
+        background-color: rgba(255, 255, 255, 0.95);
+        border: 1px solid #ddd; 
+        padding: 25px; 
+        border-radius: 12px; 
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+        margin-bottom: 20px;
+    }
+
+    /* Main Analyzer width */
+    .container { 
+        width: 100%;
+        max-width: 800px; 
+    }
+
+    /* The Dashboard area holding the columns */
+    .dashboard {
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        max-width: 1500px; /* Wider to accommodate two columns */
+        justify-content: center;
+    }
+
+    /* Column setup */
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex: 3; /* Both columns share equal width */
+    }
+
+    .column-wide {
+        display: flex;
+        flex-direction: column;
+        flex: 5; 
+    }
+
+    .info-window h3 {
+        margin-top: 0;
+        color: #007bff;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+
+    #result { 
+        background: #f9f9f9; 
+        padding: 15px; 
+        border-left: 5px solid #007bff; 
+        margin-top: 20px; 
+        white-space: pre-wrap; 
+        display: none; 
+    }
+    
+    .loading { color: #555; font-style: italic; display: none; }
+    button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Document AI Analyzer</h2>
+        <p>Upload a PDF to analyze it using <strong><span id="model-name-header">...</span></strong>.</p>
+        
+        <input type="file" id="fileInput" accept=".pdf">
+        <button onclick="uploadFile()">Analyze Document</button>
+
+        <p class="loading" id="loader">
+            <span id="model-name-loader">Model</span> is thinking... (this may take a minute)</p>
+        <div id="result"></div>
+    </div>
+
+    <div class="dashboard">
+        
+        <div class="column">
+            <div class="info-window">
+                <h3>Title</h3>
+                <p id="window-title">Waiting for data...</p>
+            </div>
+            <div class="info-window">
+                <h3>Authors</h3>
+                <p id="window-authors">Waiting for data....</p>
+            </div>
+            <div class="info-window">
+                <h3>Paper main Focus</h3>
+                <p id="window-focus">Waiting for data...</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="info-window">
+                <h3>Summary</h3>
+                <p id="window-summary">Waiting for data...</p>
+            </div>
+        </div>
+        <div class="column column-wide">
+            <div class="info-window">
+                <h3>Main Ideas</h3>
+                <p id="window-ideas">Waiting for data...</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="info-window">
+                <h3>Tables & Figures</h3>
+                <p id="window-tables_figures">Waiting for data...</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        async function loadConfig() {
+            try {
+                const response = await fetch("/config");
+                const configData = await response.json();
+                
+                // Update the placeholders with the model name from Python
+                document.getElementById('model-name-header').innerText = configData.model_name;
+                document.getElementById('model-name-loader').innerText = configData.model_name;
+            } catch (error) {
+                console.error("Could not load model name", error);
+            }
+            }
+
+            // Call this function when the window opens
+            window.onload = loadConfig;
+
+
+        async function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const resultDiv = document.getElementById('result');
+            const loader = document.getElementById('loader');
+
+            if (fileInput.files.length === 0) {
+                alert("Please select a file first!");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            // Cleanup Logic from previous steps
+            loader.style.display = "block";
+            resultDiv.style.display = "none";
+
+            try {
+                const configResponse = await fetch("/config");
+                const configData = await configResponse.json();
+                const apiKey = configData.api_key;
+
+                const formData = new FormData();
+                formData.append("file", fileInput.files[0]);
+
+                const response = await fetch("/analyze", {
+                    method: "POST",
+                    headers: { "x-api-key": apiKey },
+                    body: formData
+                });
+
+                const data = await response.json();
+                if (!response.ok) throw new Error(data.detail || "Something went wrong");
+
+                document.getElementById('model-name-loader').innerText = configData.model_name;
+
+                // Clean the text by splitting before **Summary** as discussed
+                // let rawText = data.analysis;
+                // let cleanText = rawText;
+                // if (rawText.includes("**Summary**")) {
+                //     cleanText = "**Summary**" + rawText.split("**Summary**")[1];
+                // }
+
+                // resultDiv.innerText = cleanText;
+
+
+                // resultDiv.style.display = "block";
+                // 2. Update the 5 Dashboard Windows
+                // We use the "Optional Chaining" (?.) to prevent errors if a key is missing
+                if (document.getElementById('window-title')) {
+                    document.getElementById('window-title').innerText = data.title || "Not found";
+                }
+                if (document.getElementById('window-focus')) {
+                    document.getElementById('window-focus').innerText = data.primary_focus || "N/A";
+                }
+                if (document.getElementById('window-summary')) {
+                    document.getElementById('window-summary').innerText = data.summary || "Ready";
+                }
+                if (document.getElementById('window-authors')) {
+                    document.getElementById('window-authors').innerText = data.authors || "Not found";
+                }
+                if (document.getElementById('window-ideas')) {
+                    document.getElementById('window-ideas').innerText = data.ideas || "N/A";
+                }
+                if (document.getElementById('window-tables_figures')) {
+                    document.getElementById('window-tables_figures').innerText = data.tables_figures || "N/A";
+                }
+
+
+            } catch (error) {
+                resultDiv.innerText = "Error: " + error.message;
+                resultDiv.style.display = "block";
+            } finally {
+                loader.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

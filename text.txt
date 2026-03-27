@@ -1,0 +1,506 @@
+Original Article
+Proceedings of Singapore Healthcare
+Volume 34: 1–6
+© The Author(s) 2025
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/20101058251396713
+journals.sagepub.com/home/psh
+Impostor phenomenon in neurology
+trainees peaks at commencement of
+residency
+Zhibin Tan1,2, Wai Dic Foong1,2, Nara Tiara Sugianto1, Yi Rong Chiew3,2,
+You Jiang Tan1,2, and Shih-Hui Lim1,2
+Abstract
+Background: Impostor phenomenon, characterised by self-perceived incompetence and inadequacy, has adverse effects
+on career progression and psychological wellbeing. While it is prevalent in various medical specialties, its prevalence in
+neurology is unknown.
+Methods: Anonymous surveys were conducted among neurology trainees and junior neurologists over two windows
+across two major campuses in Singapore. The ﬁrst window recruited incoming neurology residents (R0). The second
+window recruited neurology residents enrolled in any year of training (R1, R2, and R3) and junior neurologists (specialists
+practising within the ﬁrst 2 years of accreditation). The second window included the same respondents from the ﬁrst
+window. The Leary Impostorism Scale (LIS) was used, with a score of 15 indicating moderate or severe impostorism.
+Results: The ﬁrst window recorded ﬁve out of a possible ﬁve responses. The second window recorded 14 out of a possible
+23 responses. The median LIS score started at 21 (interquartile range, IQR 15-25) among R0 residents, peaked at 28 (IQR
+22-28) among R1 neurology residents, before declining to 15.5 (IQR 14-16.3) among R2 residents and 11 (IQR 10-16)
+among junior neurologists. No responses were received from R3 residents. There was a signiﬁcant difference between the
+median LIS scores of each level of training (Kruskal-Wallis H = 10.398, p = 0.015). 10 out of 14 respondents (71.4%) had
+moderate or severe impostorism.
+Conclusions: Impostor phenomenon is pervasive among neurology trainees and junior neurologists. Further studies are
+needed to investigate the impact of impostor phenomenon on neurology trainees and to identify means of mitigating it.
+Keywords
+impostor, imposter, phenomenon, neurology, residency
+Introduction
+Impostor phenomenon (IP), also known as impostorism, is a
+behavioural health phenomenon characterised by a self-
+perception of incompetence and inadequacy, leading to
+pervasive feelings of self-doubt, anxiety, depression, and a
+fear of being exposed as a fraud in their work.1 It was
+originally described in high achieving women, but is now
+known to affect men as well.2,3 Importantly, IP is also
+common among junior healthcare professionals; A previous
+review reported a 33%–44% prevalence of clinically sig-
+niﬁcant IP among resident trainees.4 The prevalence of IP is
+likely to vary geographically and between different medical
+specialties. For example, one study reported that 94% of
+young neurosurgeons in Europe exhibited signs of IP.5 IP
+has important consequences for career progression and
+1Department of Neurology, National Neuroscience Institute - Singapore
+General Hospital Campus, Singapore, Singapore
+2Neuroscience Academic Clinical Programme, SingHealth Duke-NUS
+Academic Medical Centre, Singapore, Singapore
+3Department of Neurology, National Neuroscience Institute, Singapore,
+Singapore
+Corresponding author:
+Zhibin Tan, National Neuroscience Institute - Singapore General
+Hospital Campus, 1 Hospital Boulevard, Singapore 168581, Singapore.
+Email: zhibint@gmail.com
+Creative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons
+Attribution-NonCommercial 4.0 License (https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use,
+reproduction and distribution of the work without further permission provided the original work is attributed as speciﬁed on the
+SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+psychological wellness.6 In addition, it is associated with
+burnout in the medical profession.7
+Despite its potentially far-reaching consequences, IP
+remains poorly understood. If the literature on IP among
+healthcare practitioners has been scarce, it is virtually
+non-existent for neurologists. The psychological welfare
+of neurology trainees in Asia is of particular concern,
+since Asia has a disproportionately low neurologist-to-
+population ratio which heightens the impact of attrition
+and burnout.8
+Methods
+We conducted a cross-sectional cohort study by anony-
+mously surveying incoming and enrolled neurology resi-
+dents, as well as junior neurologists from two major tertiary
+hospitals in Singapore.
+In the Singaporean context, the completion of post-
+graduate year 1 (PGY1) followed by a 3-year internal
+medicine residency is a pre-requisite for joining the 3-year
+neurology residency programme. The 3-year internal
+medicine programme includes a solitary and continuous 3-
+month rotation in neurology, to be completed in the ﬁrst or
+second year of the programme. Upon graduation from
+neurology residency, one will be certiﬁed as a specialist in
+neurology. In this study, a junior neurologist (JN) was
+deﬁned as a neurologist practising within the ﬁrst 2 years of
+specialist accreditation.
+To assess for the presence of signs of IP, the Leary Im-
+postorism Scale (LIS) was used; this is a seven-item English
+survey scale that has been validated as a measure of IP with
+high internal reliability, signiﬁcant positive correlation with
+the longer Clance Impostor Phenomenon Scale (CIPS), and a
+low respondent burden.9–11 The range of possible scores is 7-
+35, with any score above 7 suggesting some degree of IP, and
+with a higher score indicating stronger IP features in the
+respondent. A score of 15 or more was taken to indicate the
+presence of moderate or severe impostorism, since a re-
+spondent ﬁnding the majority (at least four) of the seven items
+on the LIS to be ‘moderately characteristic’ for him/her-self
+would score at least 15 points.
+The survey was administered digitally via an encrypted
+virtual platform created by a Singaporean government
+agency. The survey was advertised, by means of text
+message broadcasts, as a brief and optional one-minute
+survey. To maintain anonymity, the survey collected only
+the respondent’s year of training in neurology in addition to
+the LIS, omitting their names, sex, and ethnicities. The year
+of training in neurology was deﬁned by the grade of resi-
+dency seniority of the resident (R1, R2, or R3) rather than
+the number of years spent in training. An optional free-text
+ﬁeld was available for the respondent to provide narrative
+comments on IP in neurology.
+The surveys were administered over two windows. The
+ﬁrst window recruited incoming neurology residents (R0) in
+June 2024, the month before they commenced neurology
+residency. The second window recruited enrolled neurology
+residents in any year of training (R1, R2, and R3) and JN
+from July 2024 to Oct 2024, including the respondents from
+the ﬁrst window who had now assumed their appointments
+as neurology residents.
+Data from the collected responses were analysed using
+SPSS software (version 26.0, Chicago, IL, USA). The
+Kruskal-Wallis test was used to study independent variables
+in groups of two or more.
+Results
+In the ﬁrst window, responses were solicited from ﬁve
+R0 residents and ﬁve responses were received, with the
+median LIS score being 21 (interquartile range, IQR 15-25).
+In the second window, responses were sought from a total
+of 23 prospective respondents (comprising ﬁve R1 residents,
+eight R2 residents, three R3 residents, and seven JN phy-
+sicians), and 14 responses were received. The median LIS
+scores for R1, R2, and JN were 28 (IQR 22-28), 15.5 (IQR
+14-16.3), and 11 (10-16) respectively. No responses were
+received from R3 residents.
+As a group, the median LIS score for all enrolled neu-
+rology residents (R1 and R2) was 20 (IQR 16-28). When JN
+were included, the median LIS score was 16.5 (IQR 12-
+21.5). The lowest LIS score recorded was 9 from an JN
+respondent, whereas the highest LIS score was 30 from an
+R1 resident. Table 1 shows the mean and median LIS scores
+by year of training.
+There was a signiﬁcant difference between the median
+LIS scores of each level of training (Kruskal-Wallis H =
+10.398, p = 0.015). Figure 1 shows the boxplot of median
+LIS scores and their IQR.
+Moderate or severe impostorism was found in eight
+(88.9%) of the nine enrolled neurology residents (R1 and
+R2), and two (40%) of the ﬁve JN respondents. Table 2
+shows the breakdown of moderate or severe impostorism by
+year of training.
+Table 1. Mean and median Leary Impostorism Scale scores for each year of training. IQR, interquartile range; JN, junior neurologist (a
+specialist in neurology in the ﬁrst two years of specialist accreditation); LIS, Leary Impostorism Scale; R0, incoming neurology resident; R1,
+ﬁrst-year neurology resident; R2, second-year neurology resident; R3, third-year neurology resident.
+Year of training
+n
+Mean LIS score
+Median LIS score (IQR)
+R0
+5
+20.4
+21 (15-25)
+R1
+5
+25.6
+28 (22-28)
+20 (16-28)
+16.5 (12-21.5)
+R2
+4
+14.75
+15.5 (14-16.3)
+R3
+0
+Null
+Null
+JN
+5
+12.6
+11 (10-16)
+2
+Proceedings of Singapore Healthcare
+Only two respondents provided narrative comments. One
+R2 resident expressed gratitude for the “nice and forgiving”
+culture in the neurology department, which alleviated
+feelings of inadequacy. Another R2 resident opined that the
+transition from internal medicine resident to neurology
+resident required the navigation of a “steep learning curve”,
+which was compounded by the “long gap” between their
+neurology rotation in internal medicine residency and the
+commencement of neurology residency.
+Discussion
+Our study provides important insights into IP in neurology
+trainees and in junior neurologists.
+First, IP was more pervasive among ﬁrst-year neurology
+residents (R1) than among incoming neurology residents (R0).
+Since the ﬁve R0 and ﬁve R1 respondents in our study were the
+same respondents answering the same survey questions sep-
+arated by a brief interval of only one to 3 months, it is likely that
+the start of neurology residency exacerbated IP.
+A plausible explanation for the above observation is that
+increased exposure to neurology expands a resident’s
+metacognitive ability to recognise his/her own deﬁcits and
+knowledge gaps. Daily exposure to neurology would likely
+help new R1 residents identify blind spots in their knowl-
+edge, transferring knowledge gaps from things they did not
+know existed, to things they know exist but which they do
+not yet comprehend. As suggested by the Dunning-Kruger
+effect, this would likely narrow the gap between self-
+perceived ability and actual ability, but the resulting cor-
+rection of self-perceived ability is likely to intensify feelings
+of inadequacy and hence IP.12
+The narrative comments recorded also suggested additional
+explanations for the aggravation of IP during the transition
+from R0 to R1, which may be speciﬁc to the local structure of
+residency programmes. The promotion from internal medicine
+resident (also known as a ‘junior resident’ in the local context)
+to neurology resident (‘senior resident’) carries an increased
+weight of expectations and a wider scope of responsibilities.
+Beginner’s uncertainty about one’s capacity to fulﬁl these
+expectations and responsibilities may deepen IP. We also
+acknowledge that the long latency between a resident’s earlier
+neurology rotation during internal medicine residency and the
+subsequent commencement of neurology residency may ag-
+gravate IP. A previous study showed that the current level of
+Figure 1. Boxplot of Leary Impostorism Scale scores, showing the median, interquartile range, and range of scores at each stage of
+neurology training. LIS, Leary Impostorism Scale; JN, junior neurologist (a specialist in neurology in the ﬁrst 2 years of specialist
+accreditation); R0, incoming neurology resident; R1, ﬁrst-year neurology resident; R2, second-year neurology resident.
+Table 2. Number of respondents with moderate or severe
+impostorism, as indicated by a Leary Impostorism Scale score of 15
+or more, for each year of training. JN, junior neurologist (a
+specialist in neurology in the ﬁrst two years of specialist
+accreditation); LIS, Leary Impostorism Scale; R0, incoming
+neurology resident; R1, ﬁrst-year neurology resident; R2, second-
+year neurology resident; R3, third-year neurology resident.
+Year of training
+n
+LIS score ≥15 (%)
+R0
+5
+4 (80.0)
+R1
+5
+5 (100.0)
+8 (88.9)
+10 (71.4)
+R2
+4
+3 (60.0)
+R3
+0
+Null
+JN
+5
+2 (40.0)
+Tan et al.
+3
+neurology teachings in a Singaporean internal medicine pro-
+gramme is already inadequate to instill conﬁdence in managing
+neurological conditions.13 An internal medicine resident’s
+period away from neurology, which can last for one to two
+consecutive years before the commencement of neurology
+residency, may further weaken a resident’s recollection of any
+teachings received, hence further eroding conﬁdence.
+The narrative comment about a “nice and forgiving” culture
+alleviating IP symptoms may have suggested that institutional
+and departmental cultures can signiﬁcantly inﬂuence the
+prevalence of IP among neurology trainees, and that the effect
+of such cultures can be perceived by individuals. Previous
+studies have shown that high performance pressure predicted
+more intense impostorism across different professions.14 Fur-
+thermore, a competitive work culture exacerbates IP by en-
+couraging a self-threatening form of social comparison with
+high-performing colleagues, internally highlighting contrast
+between oneself and one’s colleagues instead of fostering as-
+similation in the workplace.15 Although the narrative feedback
+we collected was limited in quantity, it may encourage im-
+provement of modiﬁable work cultures, in order to ameliorate
+culture-imposed performance pressure and strengthen work-
+place collaboration over competition. For example, the nor-
+malizing of experiences through peer-support groups and
+availing of mentor support are examples of interventions that
+have been proposed as organisational means of mitigating IP.16
+Another insight gleaned from our study was that IP
+abated with increasing grades of residency seniority. This
+was an expected ﬁnding, given that progression within the
+residency programme is dependent on documentation of the
+necessary levels of competence, and greater competence
+instills greater conﬁdence in one’s own ability. It is likely
+that among more senior physicians, symptoms of IP would
+be less prevalent. For perspective, one study of family
+medicine residency programme directors found only 20%
+scoring 15 or more on the LIS.17 In contrast, 71.4% of our
+cohort, who were considerably more junior physicians,
+scored 15 or more, though it is uncertain how much of the
+difference may be accounted for by differences in the
+practice of family medicine and neurology.
+Finally, our study suggests that IP is pervasive among
+neurology trainees and junior neurologists in Singapore. The
+high prevalence of IP among neurology trainees and junior
+neurologists should be of particular concern in Asia because
+of the low neurologist-to-population ratio in Asia, which
+contains only 20% of the world’s neurologists despite
+constituting 60% of the world’s population.8 IP predisposes
+sufferers to multiple risk factors for burnout, and thus can
+potentially exacerbate manpower shortages. Individuals
+with IP are at greater risk of employing avoidant coping
+strategies (such as giving up, denial, or even substance
+abuse) as opposed to active coping strategies (such as
+seeking emotional support).16 This puts them at greater risk
+of emotional exhaustion because avoidant coping strategies
+tend to only provide temporary relief.16 In addition, persons
+with IP tend to attribute negative events to internal causes,
+and hence expend more emotional resources toward im-
+proving
+their
+performance,
+further
+compounding
+the
+problem of emotional exhaustion.18 Emotional exhaustion is
+a prominent dimension of burnout which, among physi-
+cians, is associated with absence from work, changing to
+part-time work, an aversion to call duty, early retirement,
+and leaving the practice of medicine.19
+Our study had several limitations. Our ethical commit-
+ment to keeping the survey anonymous, to avoid the risk of
+workplace stigma and prejudice against the residents who
+responded, meant that we could not collect more granular
+data from the small pool of potential respondents, such as
+age, sex, and the number of years spent in training. This
+limited our ability to conduct deeper analyses. For instance,
+while we found that IP waned with increasing grades of
+residency seniority, we were unable to investigate the re-
+lationship between IP and the total time spent in neurology.
+This is a point of interest, since an inverse relationship may
+suggest that longer rotations in neurology prior to the
+commencement of neurology residency can help alleviate IP
+in R1 residents.
+As our survey was optional, our response rate of 61%
+(14 out of 23 potential respondents) in the second window
+exacerbated the problem of a small sample size. This may have
+created selection bias in our results. It is possible that the
+extremes of the IP spectrum (from either end) prevail within the
+non-respondents, potentially causing their disinterest and
+hence non-response. For instance, we received no responses
+from ﬁnal year (R3) residents. This may have simply been an
+artefact of the small number of potential R3 respondents at the
+time of the survey (there were only three of them to invite).
+However, it is also possible that R3 residents, being at the cusp
+of completing their training, may have had a heightened
+awareness of their knowledge gaps, greater concerns about
+disclosing psychological vulnerabilities, and a smaller appetite
+for reputational risk (especially given the small R3 cohort size
+which can increase the risk of identiﬁcation despite our efforts
+at anonymisation).
+While lengthier questionnaires have been employed to
+diagnose different dimensions of IP, the dimensionality of IP
+remains unclear.20 Since it has also been suggested that IP may
+be a unidimensional construct, we utilised the LIS and its
+brevity as a means of identifying IP with minimal respondent
+burden.21 However, unlike the more widely used CIPS, the LIS
+does not have any suggested cut-off score for the diagnosis of
+clinically signiﬁcant IP.22 We attempted to mitigate this
+problem by deﬁning moderate impostorism using an LIS score
+of 15 or more, as explained in our Methods section.
+We have provided important insights into a hitherto
+unexplored area of neurology trainee wellbeing in Asia.
+Future research should focus on detailing the impact of IP on
+neurology trainees. Furthermore, studies are needed to
+design and validate interventions aimed at mitigating IP in
+ﬁrst-year neurology residents, who are the worst afﬂicted.
+Based on our study ﬁndings and hypotheses, the following
+interventions may be explored: (1) Courses and workshops
+to equip incoming neurology residents with the skills needed
+to cope with the scope of responsibilities fulﬁlled by a
+‘senior resident’, (2) scheduling neurology teachings or
+rotations closer to the start of neurology residency, and (3)
+mitigating competition between trainees by setting up peer-
+support groups and availing mentorship support.
+4
+Proceedings of Singapore Healthcare
+Conclusions
+This study suggests that impostor phenomenon is pervasive
+among neurology trainees, and peaks at the commencement
+of neurology residency. More research is needed to delineate
+its impact, and to ﬁnd means of mitigating impostorism.
+Acknowledgements
+We would like to acknowledge the respondents who participated in
+this study for contributing to our understanding of impostor
+phenomenon among junior neurologists.
+ORCID iDs
+Zhibin Tan https://orcid.org/0009-0001-4413-708X
+Wai Dic Foong https://orcid.org/0009-0005-6383-3768
+Nara Tiara Sugianto https://orcid.org/0009-0000-7247-7244
+Yi Rong Chiew https://orcid.org/0000-0001-5426-3621
+You Jiang Tan https://orcid.org/0000-0002-0091-5599
+Shih-Hui Lim https://orcid.org/0000-0003-1420-0970
+Ethical considerations
+Ethical approval for this study was waived by the SingHealth
+Centralised Institutional Review Board because this study in-
+volves only educational tests, surveys, interviews or observa-
+tion of public behaviour (CIRB Ref 2024-3604). This study was
+conducted in accordance with the principles set out by the
+Declaration of Helsinki.
+Consent to participate
+Informed consent was not sought for the present study because the
+need for written consent were waived by the SingHealth Cen-
+tralised Institutional Review Board. In accordance with the study
+protocol submitted for exemption, all participants were informed
+that the survey was optional, and that responding to the survey was
+taken to be an implied agreement to publish their anonymised data
+in scientiﬁc journals.
+Author contributions
+TZB conceptualised and designed the study and was involved in
+the acquisition and analysis of data, interpretation of results, and
+drafting and editing of the manuscript. FWD, NTS, and CYR were
+involved in the acquisition and analysis of data, interpretation of
+results, and editing of the manuscript. TYJ and LSH supervised the
+project, and were involved in the analysis of data, interpretation of
+the results, as well as editing of the manuscript.
+Funding
+The authors received no ﬁnancial support for the research, au-
+thorship, and/or publication of this article.
+Declaration of conﬂicting interests
+The authors declared no potential conﬂicts of interest with respect
+to the research, authorship, and/or publication of this article.
+Data Availability Statement
+The dataset generated and analysed during the current study is
+included in its supplementary material.
+Supplemental Material
+Supplemental material for this article is available online.
+References
+1. Bravata DM, Watts SA, Keefer AL, et al. Prevalence, pre-
+dictors, and treatment of impostor syndrome: a systematic
+review. J Gen Intern Med 2020; 35(4): 1252–1275.
+2. Clance PR and Imes SA. The imposter phenomenon in high
+achieving women: dynamics and therapeutic intervention.
+Psychol Psychother 1978; 15: 241–247.
+3. Feigofsky S. Imposter syndrome. HeartRhythm Case Rep
+2022; 8(12): 861–862.
+4. Gottlieb M, Chung A, Battaglioli N, et al. Impostor syndrome
+among physicians and physicians in training: a scoping re-
+view. Med Educ 2020; 54: 116–124.
+5. Zoia C, Stienen MN, Zaed I, et al. The prevalence of imposter
+syndrome among neurosurgeons in Europe: an EANS YNC
+survey. Brain Spine 2024; 4: 102816.
+6. Clance PR and Otoole MA. The imposter phenomenon: an
+internal barrier to empowerment and achievement. Women
+Ther 1987; 6: 51–64.
+7. Freeman J and Peisah C. Imposter syndrome in doctors be-
+yond training: a narrative review. Australas Psychiatry 2022;
+30(1): 49–54.
+8. Tan CT. Neurology in Asia. Neurology 2015; 84(6): 623–625.
+9. Leary MR, Patton KM, Orlando AE, et al. The impostor
+phenomenon: self-perceptions‘ reﬂected appraisals‘ and in-
+terpersonal strategies. J Pers 2000; 68: 725–756.
+10. Freeman KJ, Houghton S, Carr SE, et al. Measuring impostor
+phenomenon in healthcare simulation educators: a validation
+of the clance impostor phenomenon scale and leary im-
+postorism scale. BMC Med Educ 2022; 22(1): 139.
+11. Martin J, Gonsalvez CJ, Pickard JA, et al. Factor analysis of
+the Leary impostorism scale in professional psychology
+trainees. J Psychol Couns Sch 2024; 34(4): 451–461.
+12. Kruger J and Dunning D. Unskilled and unaware of it: how
+difﬁculties in recognizing one’s own incompetence lead to
+inﬂated self-assessments. J Pers Soc Psychol 1999; 77(6):
+1121–1134.
+13. Tan YJ, Juliana KYL and Manohararaj N. Conﬁdence in
+neurology: how educators can help junior doctors ﬁght
+Neurophobia. SE Asian Jnl Med Educ 2022; 16(2): 30–37.
+14. Feenstra S, Phillips F, Begeny CT, et al. Are you better than
+me? Competitive work climates fuel impostorism via upward
+social comparisons. Soc Psychol Personal Sci 2025. DOI: 10.
+1177/19485506251348803.
+15. Bielenberg C, Ibrahim F and Herzberg PY. The impact of
+workplace environment on the impostor phenomenon among
+early career starters. Curr Res Behav Sci 2025; 8: e100175.
+16. Hutchins H, Penney L and Sublett L. What imposters risk at
+work: exploring imposter phenomenon, stress coping, and job
+outcomes. Hum Resour Dev Q 2018; 29: 31–48.
+17. Gopal B, Fortenberry KT and Coskey O. Impostor phe-
+nomenon among family medicine residency program direc-
+tors: a CERA study. Fam Med 2023; 55(8): 553–558.
+18. Hutchins HM. Outing the imposter: a study exploring im-
+poster phenomenon among higher education faculty. New
+Tan et al.
+5
+Horizons in Adult Education and Human Resource Devel-
+opment 2015; 27(2): 3–12.
+19. Hasan TF, Turnbull MT, Vatz KA, et al. Burnout and attrition:
+expanding the gender gap in neurology? Neurology 2019;
+93(23): 1002–1008.
+20. Mak KKL, Kleitman S and Abbott MJ. Impostor phenomenon
+measurement scales: a systematic review. Front Psychol 2019;
+10: 671.
+21. Simon M and Choi YJ. Using factor analysis to validate the
+Clance impostor phenomenon scale in sample of science,
+technology, engineering and mathematics doctoral students.
+Pers Individ Dif 2018; 121: 173–175.
+22. Holmes SW, Kertay L, Adamson LB, et al. Measuring
+the impostor phenomenon: a comparison of Clance’s IP
+scale and Harvey’s I-P scale. J Pers Assess 1993; 60(1):
+48–59.
+6
+Proceedings of Singapore Healthcare
