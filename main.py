@@ -25,7 +25,7 @@ ERROR = "Generation error"
 
 ### Nvidia models
 MODEL = "mistralai/mixtral-8x22b-instruct-v0.1"
-API_KEY = os.getenv("NVIDIA_API_KEY")
+API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Use nvidia models API
 client = OpenAI(
@@ -41,7 +41,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 # async def get_config():
 #     # This sends the key from your .env to the browser
 #     return {
-#         "api_key": os.getenv("NVIDIA_API_KEY"),
+#         "api_key": os.getenv("API_KEY"),
 #         "model_name": MODEL
 #         }
 
